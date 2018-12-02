@@ -1,0 +1,70 @@
+.hamtable{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3498db;
+    background: #fff;
+    overflow: hidden;
+}
+.t_row{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.t_cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100% ;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px 2px;
+    border: 1px solid rgba(129, 129, 129, 0.123);
+    transition: .25s ease-out;
+    overflow:hidden;
+    white-space:pre-wrap;
+    text-overflow: ellipsis;
+}
+.t_row:hover{
+    background: rgba(76, 146, 211, 0.933);
+    color: white;
+}
+
+.t_cell:hover{
+    background: rgba(157, 208, 255, 0.933);
+    color: white;
+}
+.t_rowTitle{
+    text-align: center;
+    min-width: 25px;
+    max-width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(129, 129, 129, 0.123);
+}
+.t_btn{
+    min-width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_titlebar{
+    /*background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(255,255,255,1) 66%, rgba(242,242,242,1) 100%);*/
+    background: #2980b9;
+    color:white;
+}
+
+@media (max-width: 450px){
+    /*.t_row{
+        flex-flow: column;
+    }
+    .t_cell{
+        width: 100%;
+    }*/
+    .hamtable{
+        font-size: 12px !important;
+    }
+}

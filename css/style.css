@@ -1,0 +1,18 @@
+.msgBienvenida{
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+    border-radius: 50px;
+    background: #fff;
+    transition: .4s ease-in-out;
+    box-shadow: 0 0 10px #232323;
+}
+.dspMSG{
+    top: 15px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
