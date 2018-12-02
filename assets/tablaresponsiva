@@ -1,0 +1,42 @@
+<div class="hamtable">
+    <div class="t_row t_titlebar">
+        <div class="t_rowTitle">#</div>
+        <div class="t_cell">Nombre</div>
+        <div class="t_cell">Apellido Paterno</div>
+        <div class="t_cell">Apellido Materno</div>
+        <div class="t_cell">No. Control</div>
+        <div class="t_cell">Semestre</div>
+        <!--<div class="t_btn">+</div>-->
+    </div>
+
+    <div class="t_row">
+        <div class="t_rowTitle">1</div>
+        <div class="t_cell">Jorge Luis</div>
+        <div class="t_cell">Rea</div>
+        <div class="t_cell">Salazar</div>
+        <div class="t_cell">C16130488</div>
+        <div class="t_cell">6</div>
+    </div>
+    <div class="t_row">
+        <div class="t_rowTitle">2</div>
+        <div class="t_cell">Hector Javier</div>
+        <div class="t_cell">de la Cruz</div>
+        <div class="t_cell">Hernandez</div>
+        <div class="t_cell">16130247</div>
+        <div class="t_cell">4</div>
+    </div>
+    <?php
+        for($i = 2; $i<rand(1,999); $i++){
+            $e = 1;
+            echo'
+            <div class="t_row">
+                <div class="t_rowTitle">'.($i+1).'</div>
+                <div class="t_cell">cell ('.$e++.",".$i.')</div>
+                <div class="t_cell">cell ('.$e++.",".$i.')</div>
+                <div class="t_cell">cell ('.$e++.",".$i.')</div>
+                <div class="t_cell">cell ('.$e++.",".$i.')</div>
+                <div class="t_cell">'.rand(1,12).'</div>
+            </div>';
+        }
+    ?>
+</div>
