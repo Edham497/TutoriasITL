@@ -1,12 +1,10 @@
 # TutoriasITL
+---
+## Partes del proyecto
 
-
-## Puntos del proyecto
-
-- [x] Login
-- [x] Vista general
-- [ ] Control de Usuario
-- [ ] Alta de Alumnos
-- [ ] Seguimiento de Alumnos
-- [ ] Imprimir Lista/Reportes
-- [ ] ...
+> Login 50%
+> Vista general 35%
+> Control de Usuario 0%
+> Alta de Alumnos 0%
+> Seguimiento de Alumnos 0%
+> Imprimir Lista/Reportes 0%
