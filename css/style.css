@@ -12,7 +12,15 @@
     left: 0;
     position: fixed;
     width: 100%;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main{
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+.hamtable{
+    width: 100%;
 }

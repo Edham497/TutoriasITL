@@ -47,7 +47,7 @@ html{height: 100%;}
 .maxSize500{max-width: 500px; max-height: 500px;}
 /* setSize W/H */
 .setMaxWidth{width: 100%;}
-.setMaxSize{width: 100%;min-height: 100vh; padding: 15px 0 25px 0;}
+.setMaxSize{width: 100%;min-height: 100vh;}
 /* img container */
 .imgcont{
   max-width: 100%;
@@ -193,7 +193,11 @@ html{height: 100%;}
   border: none;
 }
 header{
-  box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top:0;
+  box-shadow: 0 0 4px 2px rgba(0,0,0,0.8);
 }
 tags{
   display: flex;
