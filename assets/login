@@ -1,0 +1,22 @@
+<div class="col cc setMaxWidth">
+    
+    <div class="ham-title pdg10 row middle">
+        <img src="ico/35px/icons8_User_35px.png" alt="">
+        <label for="">Usuario</label>
+    </div>
+    <input class="ham-tb fs18" type="text">
+
+    <div class="ham-title pdg10 row middle">
+        <img src="ico/35px/icons8_Password_35px.png" alt="">
+        <label for="">Contraseña</label>
+    </div>
+    <input class="ham-tb fs18" type="password">
+    
+    <div class="pdg20"></div>
+    <a href="">¿Olvido su Contraseña?</a>
+    <div class="pdg20"></div>
+    <div class="buttonBar row">
+        <input class="ham-btn btn-grad fs20" type="submit" value="Iniciar Sesion">
+    </div>
+    
+</div>

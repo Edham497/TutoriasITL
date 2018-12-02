@@ -1,0 +1,16 @@
+<form class="col cc" action="">
+    <div class="ham-title row middle">
+        <img src="ico/icons8_User_24px.png" alt="">
+        <label for="">Usuario</label>
+    </div>
+    <input class="ham-tb" type="text">
+    <div class="ham-title row middle">
+        <img src="ico/icons8_Password_24px.png" alt="">
+        <label for="">Contraseña</label>
+    </div>
+    <input class="ham-tb" type="text">
+    <div class="row sb buttonBar">
+        <div class="btn-grad ham-btn">Iniciar Sesion</div>
+        <div class="btn-grad ham-btn">Registrarse</div>
+    </div>
+</form>

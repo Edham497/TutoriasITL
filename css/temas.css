@@ -1,0 +1,19 @@
+
+.ham-light{background: #ffffff}
+.ham-dark{background: #222831}
+
+.material{background: #263238; color: white}
+.material .ham-title{background: #455a64; color: white}
+.material .ham-subTitle.sm{background: rgba(255,255,255,0.1); color: white;}
+.material header{background: #37474f;box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.3)}
+
+.material-light{background: #fafafa; color: #424242}
+
+.material-dark{background: #212121; color: white}
+.material-dark header{box-shadow: 0px 0px 0px 10px red}
+.material-dark .ham-title{background: #455A64; color: white;}
+
+.contenido.electricBorder > .item:hover{
+  background: #3392b5;
+  color: white;
+}
