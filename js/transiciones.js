@@ -30,6 +30,6 @@ function fadeOut(elemento){
     setTimeout(function(){x.style.display="none";}, 3800);
 }
 function main(){
-    showMSGB("body", msgBienvenida("Bienvenido Jorge Rea"));
+    showMSGB("body", msgBienvenida("Bienvenido $User"));
     setTimeout(function(){fadeOut(".dspMSG");},1500);
 }
